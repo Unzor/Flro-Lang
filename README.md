@@ -3,9 +3,15 @@ A programming language for the Fylrobot packager, Fylropack.
 
 # Usage & Docs 
 ## Interpreter Usage
-Import the script in CollabVM, and use this in the console:
+Import the interpreter script in CollabVM, and use this in the console:
 ```javascript
 FlroInterpreter.run(<code here>);
 ```
 ## Docs
-Docs coming soon!
+`CollabVM`: CollabVM tunnel.
+### Methods:
+`CollabVM:Chat`: Sends a message in chat.
+## Usage:
+```javascript
+CollabVM:Chat('Your message here');
+```
