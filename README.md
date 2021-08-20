@@ -11,7 +11,12 @@ FlroInterpreter.run(<code here>);
 `CollabVM`: CollabVM tunnel.
 ### Methods:
 `CollabVM:Chat`: Sends a message in chat.
-## Usage:
+#### Usage:
 ```javascript
 CollabVM:Chat('Your message here');
+```
+`CollabVM:ChangeName`: Changes your username.
+#### Usage:
+```javascript
+CollabVM:ChangeName('Name here...');
 ```
